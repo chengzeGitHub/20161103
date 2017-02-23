@@ -12,7 +12,10 @@ public class hello {
 		
 		a = 10;
 		System.out.println("hello myGod!");
-		System.out.print(a);
+
+		for(int i=0;i<a;i++){
+			System.out.print(i);
+		}
 	}
 
 }
